@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\Pagina web"
+		},
+		{
+			"path": "..\\imagen"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "entregable"
+	}
+}

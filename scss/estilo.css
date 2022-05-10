@@ -1,0 +1,178 @@
+header .recomendados {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header .menu .menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  outline: 2px solid #a7a7a7;
+  position: relative;
+  display: inline-block;
+  padding: 3px 6px;
+  overflow: hidden;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+header .menu .menu li :hover {
+  background-color: #8a8686;
+  border-radius: 5%;
+}
+
+header .menu .menu li a:hover {
+  color: #ffffff;
+}
+
+header section {
+  padding: 20px;
+}
+
+header section .noti {
+  color: #000000;
+  color: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
+  font-size: 14px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  -webkit-box-shadow: 1px 1px 1px grey;
+          box-shadow: 1px 1px 1px grey;
+}
+
+header footer {
+  color: #000000;
+}
+
+header .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .redes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .redes-container ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+header .redes-container ul li a {
+  display: block;
+  padding: 0 10px;
+  background-color: #333;
+  color: #ffffff;
+  line-height: 50px;
+  font-size: 18px;
+  -webkit-box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header .redes-container ul:hover a {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+header .redes-container ul li a:hover {
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+  -webkit-box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+  -webkit-filter: none;
+          filter: none;
+}
+
+header .redes-container ul li .facebook:hover {
+  background: #3b5999;
+}
+
+header .redes-container ul li .instagram:hover {
+  background: #e4405f;
+}
+
+header .redes-container ul li .twitter:hover {
+  background: #55acee;
+}
+
+header .redes-container ul li .youtube:hover {
+  background: #c4302b;
+}
+
+header .terminos {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  -webkit-box-shadow: 1px 1px 1px black;
+          box-shadow: 1px 1px 1px black;
+}
+
+header .condiciones {
+  color: #000000;
+}
+
+.textartist, .textartist .titulo {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-decoration-break: clone;
+          box-decoration-break: clone;
+}
+
+.textartist .titulo {
+  color: #a75b5b;
+}
+
+.sobreartista {
+  background-color: #a75b5b;
+  border-radius: 2px;
+}
+
+.sobreartista h3 {
+  color: #ffffff;
+}
+
+.sobreartista p {
+  color: #a75b5b;
+}
+
+.bio {
+  background-color: #a75b5b;
+  border-radius: 2px;
+}
+
+.bio h3 {
+  color: #ffffff;
+}
+
+.bio p {
+  color: #a75b5b;
+}
+/*# sourceMappingURL=estilo.css.map */
