@@ -5,6 +5,8 @@
 }
 body{
     background-image: url(./favicon_io/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
     color: black;
     position: relative;
@@ -13,11 +15,12 @@ body{
     
 }
 
-@media only screen and(max-widht: 500px){
+
+@media only screen and(max-widht: 768px){
     body{
         background-color: #ffffff;
         font-family: 'Montserrat', sans-serif;
-        color: black;
+        color: rgb(255, 252, 252);
     }
 }
 @media only screen and (max-widht: 600px) {
@@ -44,19 +47,11 @@ nav{
 section{
     padding: 20px;
 }
-.noti{
-    color: #000000;
-    color: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
-    font-size: 14px; 
-    letter-spacing: 3px;
-    word-spacing: 5px; 
-    box-shadow: 1px 1px 1px grey;
-
-}
 
     
 .Contacto{
 text-align: center;
+list-style:none
     
 
 }
@@ -180,10 +175,10 @@ article{
 }
 
 .termi{
-    color: #9E1313;
+    color: #ffffff;
 }
 footer{
-    color: #000000;
+    color: #ffffff;
     bottom: 0;
 }
 .card{
@@ -209,9 +204,13 @@ footer{
             filter: none;
             }
             
-            .sobre{
-                color: #8f0707;
+            .textsobre{
+                color: #ffffff;
             }
+            .biogra{
+                color: #ff5500;
+            }
+
 
             .textartist, .textartist .titulo {
                 width: 100%;
@@ -239,11 +238,12 @@ footer{
               }
               
               .textartist .titulo {
-                color: #9E1313;
+                color: #ffffff;
               }
               
               .sobreartista {
                 
+                filter: blur(100%);
                 border-radius: 2px;
               }
               
@@ -252,8 +252,9 @@ footer{
               }
               
               .sobreartista p {
-                color: #9E1313;
+                color:  #ffffff ;
               }
+
               
               .bio {
                
@@ -271,10 +272,15 @@ footer{
               
               /*# sourceMappingURL=estilo.css.map */
               
-              .descrip{
+              .caja{
+                background-color: #1c1b1b;
                 color: #ff5500;
             }
             .form-label{
                 color: #9E1313;
 
+            }
+            .descrip{
+                background-color: #1c1b1b;
+                color: #ffffff;
             }
